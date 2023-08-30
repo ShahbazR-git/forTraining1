@@ -1,6 +1,35 @@
 #demo
     .minibox
-        width: 100px
+        width: 200px
         height: 100px
-        border: 1px solid #fd0000
+        border: 1px solid #13ab05
+        transition: 2s
+        color: #0979b5
+        font-size: 30px
+        &:hover
+            width: 100px
+            height: 150px
+            border: 7px solid #edcb08
+            color: #f80000
+            font-size: 40px
+    
+    @media screen and ( max-width: 1000px )
+        .minibox
+            width: 250px
+            height: 250px
+            background-color: #d70dc3
+            color: #edcb08
+            font-size: 60px
+
+    @media screen and ( max-width: 600px )
+        .minibox
+            width: 50px
+            height: 50px
+            background-color: #0ced90
+            color: #000000
+            font-size: 30px
+            border-color: #000000
+        
+
+
         
